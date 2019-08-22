@@ -2,9 +2,9 @@
   "name": "@andreribas/chip8",
   "version": "1.0.0",
   "description": "A chip8 simulator",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
     "chip8"
@@ -14,5 +14,8 @@
     "url": "https://github.com/andreribas/chip8"
   },
   "author": "André Ribas",
-  "license": "BSD-2-Clause"
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  }
 }
